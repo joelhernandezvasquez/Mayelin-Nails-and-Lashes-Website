@@ -1,0 +1,51 @@
+
+@import "main_colors.scss";
+
+.container{
+    width:90%;
+    max-width:1400px;
+    margin:auto;
+    border:1px solid red;
+}
+
+
+
+.logo{
+    
+    width:115px;
+    height:55px;
+    max-width: 176;
+    max-height: 76;
+    min-width: 110px;
+    min-height: 50px;
+    
+}
+
+
+//MARGIN AND SPACING
+.top-section-spacing{
+    margin-top:4rem;
+}
+
+.spacing-btw-container{
+ margin-top:2rem;
+}
+
+
+@mixin drawCircleShape($width,$background,$opacity){
+   
+    width:$width;
+    height:$width;
+    border-radius:50%;
+    background-color:$background;
+    opacity:$opacity;
+}
+.circle-shape{
+
+    position:absolute;
+}
+
+
+
+
+    
